@@ -1,0 +1,17 @@
+nohup: ignoring input
+[0mGET / [32m200 [0m11.816 ms - 1745[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.631 ms - -[0m
+[0mGET /javascripts/weather.js [36m304 [0m3.111 ms - -[0m
+[0mGET /images/owl-book.png [36m304 [0m0.494 ms - -[0m
+[0mGET /images/dict-3.jpg [36m304 [0m1.672 ms - -[0m
+[0mGET / [36m304 [0m2.215 ms - -[0m
+[0mGET /javascripts/weather.js [32m200 [0m1.220 ms - 1666[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.183 ms - -[0m
+[0mGET /images/owl-book.png [36m304 [0m0.281 ms - -[0m
+[0mGET /images/dict-3.jpg [36m304 [0m0.271 ms - -[0m
+[0mGET /owlbot?q=Find [32m200 [0m164.302 ms - -[0m
+[0mGET /owlbot?q=find [32m200 [0m119.307 ms - -[0m
+[0mGET /owlbot?q=naught [32m200 [0m115.858 ms - -[0m
+[0mGET /getcity?q=A [36m304 [0m4.909 ms - -[0m
+[0mGET /owlbot?q=zoot [32m200 [0m155.791 ms - -[0m
+[0mGET /owlbot?q=toot [32m200 [0m104.041 ms - -[0m

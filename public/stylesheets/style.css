@@ -1,0 +1,38 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: rgb(255, 253, 231);
+    background-image: url(/images/dict-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#wrapper {
+    background-color: rgba(103,103,96,0.85);
+    border-radius: 8px;
+    margin: 5px;
+}
+
+#owldefine {
+    margin: 15px;
+}
+
+#owlPooh {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+#border {
+    border: 2px solid black;
+    margin: 10px;
+}
+
+#findCity {
+    margin: 15px;
+}

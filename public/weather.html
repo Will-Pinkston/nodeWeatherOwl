@@ -1,0 +1,41 @@
+<!DOCTYPEhtml>
+<html>
+    <head>
+        <title>City Finder</title>
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>-->
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+        <script src="javascripts/weather.js"></script>
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    </head>
+    <body>
+        <div id="wrapper" ng-app='app' ng-controller='MainCtrl'>
+            <br>
+            <div id="findCity">
+                <form>
+                    Enter A Utah City: <input type="text" id="cityfield" value="" ng-keyup="CitySearch()"><br>
+                    Suggestion: <span id="txtHint">Empty</span>
+                </form>
+            </div>
+            <br>
+            <br>
+            <div id="owldefine">
+                <h3>Wise owl can define a word for you</h3>
+                <h4>Wise owl knows everything</h4>
+                <form>
+                    Enter a word: <input type="text" id="owlfield" value="" ng-model="search"/>
+                    <button type="button" ng-click="OwlSearch()">Submit</button>
+                </form>
+                <div id="defenition">
+                    <h5 id="def_word"></h5>
+                    <p id="def_def"></p>
+                    <p id="def_ex"></p>
+                </div>
+            </div>
+            <br>
+        </div>        
+        <div id="owlPooh">
+            <img src="/images/owl-book.png" height="180"/>
+        </div>
+    </body>
+</html>
